@@ -19,10 +19,6 @@ Kurulum
 	1.	Motoko SDK’yı yükleyin:
 Eğer henüz yüklü değilse, Motoko SDK dökümantasyonunu takip ederek kurulum işlemini gerçekleştirebilirsiniz.
 	2.	Proje dosyalarını indirin:
-Projeyi klonlayarak ya da dosyaları indirerek yerel ortamınıza alabilirsiniz.
-
-git clone https://github.com/kullaniciadi/motoko-hesap-makinesi.git
-cd motoko-hesap-makinesi
 
 
 	3.	Projeyi derleyin:
