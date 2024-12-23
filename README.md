@@ -6,26 +6,26 @@ This project contains a Motoko-based calculator smart contract designed to perfo
 
 The calculator provides the following functionalities:
 
-1. **Addition**
+1. Addition
    - Adds a given integer to the current value stored in the calculator.
-   - **Function:** `addition(s: Int) : async Int`
+   - Function: `addition(s: Int) : async Int`
 
 2. **Subtraction**
    - Subtracts a given integer from the current value stored in the calculator.
-   - **Function:** `subtraction(s: Int) : async Int`
+   - Function: `subtraction(s: Int) : async Int`
 
 3. **Multiplication**
    - Multiplies the current value stored in the calculator by a given integer.
-   - **Function:** `multiplication(s: Int) : async Int`
+   - Function: `multiplication(s: Int) : async Int`
 
 4. **Division**
    - Divides the current value stored in the calculator by a given integer.
    - Handles division by zero by returning `null`.
-   - **Function:** `division(s: Int) : async ?Int`
+   - Function: `division(s: Int) : async ?Int`
 
 5. **Reset (Clean)**
    - Resets the current value stored in the calculator to `0`.
-   - **Function:** `clean() : async ()`
+   - Function: `clean() : async ()`
 
 ## Implementation Details
 
@@ -35,8 +35,6 @@ The calculator provides the following functionalities:
   - Each function uses the `async` keyword to handle potentially asynchronous computations, a common pattern in distributed systems.
 - **Error Handling**
   - The `division` function includes a safeguard for division by zero, returning `null` instead of throwing an error.
-
-## Example Usage
 
 ### Initialization
 Create an instance of the `calculator` actor to start using the calculator:
@@ -75,8 +73,5 @@ await calc.clean(); // Resets the value to 0
 ## Requirements
 - Internet Computer SDK
 - Motoko compiler
-
-## Notes
-This smart contract is designed for demonstration purposes and can be extended further to include more advanced arithmetic operations or additional features as needed.
 
 
