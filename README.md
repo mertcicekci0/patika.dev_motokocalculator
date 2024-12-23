@@ -1,4 +1,3 @@
-Tabii, işte Bolt yazı tipi olmadan, ChatGPT ile yazıldığını belli etmeyen şekilde düzenlenmiş README dosyası:
 
 Motoko Hesap Makinesi
 
